@@ -7,6 +7,7 @@ body {
     background-image: url('../images/Weblayout.png');
     background-size: 100%;
     font-family: Gibson-Regular;
+    color: #02158B;
 }
 
 .logo-image {
@@ -60,7 +61,7 @@ body {
     color:white;
     background-color: #02158B;
     font-size: 1.5em;
-    width: 140px;
+    width: 150px;
     height: 50px;
     animation: shadow-pulse 1s infinite;
 }
@@ -153,6 +154,119 @@ body {
 
 .caption {
     font-size: 1.5em;
+}
+
+.encyclopedia-header {
+    margin-top: 50px;
+}
+
+.encyclopedia-header h2 {
+    font-size: 3em;
+}
+
+.encyclopedia-header p {
+    font-size: 1.8em;
+}
+
+#hummingbird {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.learn-button-1 {
+    position: absolute;
+    right: 30%;
+    top: 276%;
+}
+
+#feeding {
+    width: 90%;
+    margin-top: 80px;
+}
+
+.learn-button-2 {
+    position: absolute;
+    left: 19%;
+    top: 335%;
+}
+
+.blue-waves-2 {
+    width: 100%;
+}
+
+#discovered {
+    width: 300px;
+    height: auto;
+}
+
+#discovered {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 390%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tree-2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 375%;
+}
+
+#yellow-button {
+    position: absolute;
+    top: 415%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pt-num {
+    position: absolute;
+    top: 411%;
+    left: 49%;
+    font-size: 2.2em;
+}
+
+#trio {
+    position: absolute;
+    width: 60%;
+    top: 430%;
+    left: 20%;
+}
+
+#phone {
+    position: absolute;
+    width: 220px;
+    height: auto;
+    top: 480%;
+    left: 30%;
+}
+
+#app-store {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 490%;
+    right: 30%;
+}
+
+#footer-logo {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 543%;
+    left: 47%;
+}
+
+#footer-txt {
+    color: white;
+    position: absolute;
+    font-size: 1.2em;
+    top: 550%;
+    left: 48.3%;
 }
 
 @keyframes shadow-pulse
