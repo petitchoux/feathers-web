@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Gibson-Regular;
+    src: url(../fonts/gibson-font/Gibson-Regular.ttf);
+}
+
+body {
+    background-image: url('../images/Weblayout.png');
+    background-size: 100%;
+    font-family: Gibson-Regular;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.nav-container {
+    align-items: center;
+}
+
+.custom-nav-item {
+    color: white;
+    font-size: 1.4em;
+}
+
+#title-name {
+    font-size: 6em;
+}
+
+#landing {
+    color: #02158B;
+    padding-top: 15%;
+}
+
+#left-text {
+    float: left;
+}
+
+.flower {
+    width: 700px;
+    height: auto;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.flip-horizontally {
+    transform: scaleX(-1);
+}
+
+.blue-buttons {
+    border-radius: 50px;
+    color:white;
+    background-color: #02158B;
+    font-size: 1.5em;
+    width: 140px;
+    height: 50px;
+    animation: shadow-pulse 1s infinite;
+}
+
+.blue-waves {
+    width: 100%;
+    margin-top: 200px;
+}
+
+#header-2 {
+    text-align: center;
+    color: white;
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(2, 21, 139, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+     }
+}
