@@ -21,6 +21,7 @@ body {
 .custom-nav-item {
     color: white;
     font-size: 1.4em;
+    letter-spacing: 1.5px;
 }
 
 #title-name {
@@ -29,11 +30,12 @@ body {
 
 #landing {
     color: #02158B;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
-#left-text {
-    float: left;
+#grouped-slogan {
+    width: 500px;
+    height: auto;
 }
 
 .flower {
@@ -47,6 +49,10 @@ body {
 
 .flip-horizontally {
     transform: scaleX(-1);
+}
+
+.begin-button {
+    margin-left: 150px;
 }
 
 .blue-buttons {
@@ -64,9 +70,89 @@ body {
     margin-top: 200px;
 }
 
-#header-2 {
+.content {
     text-align: center;
+    position: relative;
+  }
+
+.centered {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+}
+
+#statistics {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.statistic-1 {
+    position: absolute;
+    top: 50%;
+}
+
+.statistic-2 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+
+.statistic-3 {
+    position: absolute;
+    top: 50%;
+    right: 18%;
+}
+
+.tree-1 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+
+.white-birds {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+.counter {
+    display: table-cell;
+    margin: 0 auto;
+    font-size: 40px;
+    background-color: #F1D137;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    vertical-align: middle;
+    color: #02158B;
+    padding-top: 45px;
+}
+
+.statistics-subs {
+    position: absolute;
+    top: 170%;
+    margin: 0 auto;
+    left: 10%;
+}
+
+.caption-stats {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.caption {
+    font-size: 1.5em;
 }
 
 @keyframes shadow-pulse
